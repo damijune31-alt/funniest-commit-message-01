@@ -14,7 +14,9 @@ from pathlib import Path
 # faster, not rarer), the irony is specific to a performance fix,
 # it reads like something a tired engineer would actually type,
 # and it avoids the tired revert / test-in-prod / broke-everything
-# angles the brief warns against.
+# angles the brief warns against. The semicolon does the timing:
+# a straight setup, then the deadpan turn in the same breath,
+# exactly how the real commit got typed at the end of a bad day.
 LINE = "Fixed the slow query; it now fails instantly"
 
 if not 1 <= len(LINE) <= 100:
